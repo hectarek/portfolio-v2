@@ -1,0 +1,4 @@
+bun run lint
+bun run ts
+bun run test
+bun run format
