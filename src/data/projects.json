@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "slug": "learning-platform",
+      "title": "Modern Learning Platform",
+      "description": "Game-based learning system with micro-credential ecosystem and structured curriculum pipelines.",
+      "longDescription": "Built a comprehensive learning platform that combines game-based learning mechanics with a micro-credential ecosystem. Designed structured curriculum pipelines and tools for teachers and administrators. Implemented student operations and scheduling systems with automated allocation.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Bun",
+        "Drizzle ORM",
+        "PostgreSQL"
+      ],
+      "image": "/images/projects/learning-platform.jpg",
+      "url": "https://example.com/learning-platform",
+      "github": "https://github.com/hectarek/learning-platform",
+      "featured": true,
+      "date": "2024-01-15"
+    },
+    {
+      "id": "project-2",
+      "slug": "recipe-microservice",
+      "title": "Recipe Data Pipeline",
+      "description": "Next.js + Bun microservice that ingests recipes, normalizes data, and syncs to Notion.",
+      "longDescription": "Built a Next.js + Bun microservice that ingests recipes from multiple sources, normalizes the data structure, and syncs it to Notion. Implemented automated data ingestion pipeline with JSON schema generation and background worker jobs.",
+      "technologies": ["Next.js", "Bun", "TypeScript", "Notion API"],
+      "image": "/images/projects/recipe-service.jpg",
+      "url": "https://example.com/recipes",
+      "github": "https://github.com/hectarek/recipe-service",
+      "featured": true,
+      "date": "2024-03-20"
+    },
+    {
+      "id": "project-3",
+      "slug": "allocation-system",
+      "title": "Automated Allocation System",
+      "description": "Google Sheets Apps Script system for automated student and resource allocation.",
+      "longDescription": "Created an automated allocation system using Google Apps Script integrated with Google Sheets. Handles complex student and resource allocation logic with background processing and data validation.",
+      "technologies": ["Google Apps Script", "JavaScript", "Google Sheets API"],
+      "image": "/images/projects/allocation-system.jpg",
+      "url": null,
+      "github": "https://github.com/hectarek/allocation-system",
+      "featured": false,
+      "date": "2023-11-10"
+    }
+  ]
+}

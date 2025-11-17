@@ -1,0 +1,16 @@
+{
+  "name": "Hector Gonzalez",
+  "title": "CTO, Startup Co-Founder, Full Stack Engineer",
+  "bio": "Problem-focused technical leader who designs scalable, modern products. Blends engineering clarity with educational vision to turn complex ideas into repeatable, high-impact experiences.",
+  "image": "/hector.webp",
+  "email": "hector@example.com",
+  "social": {
+    "github": "https://github.com/hectarek",
+    "linkedin": "https://linkedin.com/in/hectorg",
+    "twitter": "https://twitter.com/hectarek"
+  },
+  "consulting": {
+    "available": true,
+    "note": "Open to consulting opportunities (but not a main focus)"
+  }
+}

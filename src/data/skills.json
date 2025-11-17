@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "Systems Design",
+      "skills": [
+        "Architecture",
+        "Scaling",
+        "Data Flows",
+        "Templates",
+        "Pipelines",
+        "Repeatable Patterns"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "Bun",
+        "Drizzle ORM",
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Product Strategy",
+      "skills": [
+        "Requirements Definition",
+        "Architecture Translation",
+        "Minimal Complexity Design"
+      ]
+    },
+    {
+      "name": "Automation & Tooling",
+      "skills": [
+        "Allocations Systems",
+        "Google Apps Script",
+        "Data Ingestion",
+        "Background Workers",
+        "AI Integration"
+      ]
+    }
+  ]
+}

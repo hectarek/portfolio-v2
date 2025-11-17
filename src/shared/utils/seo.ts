@@ -30,7 +30,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
     noIndex = false,
   } = config;
 
-  const baseUrl = process.env["NEXT_PUBLIC_APP_URL"] || "http://localhost:3000";
+  const baseUrl = process.env["NEXT_PUBLIC_SITE_URL"] || "https://example.com";
   const fullImageUrl = image
     ? image.startsWith("http")
       ? image
@@ -71,7 +71,12 @@ export function generateMetadata(config: SEOConfig): Metadata {
  */
 export function generateCanonicalUrl(path: string, baseUrl?: string): string {
   const base =
-    baseUrl || process.env["NEXT_PUBLIC_APP_URL"] || "http://localhost:3000";
+    baseUrl || process.env["NEXT_PUBLIC_SITE_URL"] || "https://example.com";
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   return `${base}${cleanPath}`;
 }
+
+/**
+ * Alias for generateMetadata for backward compatibility
+ */
+export const generateSEOMetadata = generateMetadata;
